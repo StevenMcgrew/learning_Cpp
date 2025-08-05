@@ -5,6 +5,7 @@
             "label": "C/C++: g++-14 build active file",
             "command": "/home/linuxbrew/.linuxbrew/bin/g++-14",
             "args": [
+                "-std=c++23",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
